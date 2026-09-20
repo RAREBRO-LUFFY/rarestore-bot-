@@ -1,0 +1,12 @@
+runtime:
+  language: nodejs
+  version: "20"
+
+build:
+  command: npm install
+
+start:
+  command: npm start
+
+env:
+  NODE_ENV: production
